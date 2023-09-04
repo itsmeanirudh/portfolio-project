@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bd54f6321c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/portfolio/images/Screenshot 2023-08-24 192750.png" width="200px" alt="hello" class="logo">
+                <ul>
+
+                    <li> <a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#sevices">Projects</a> </li>
+                    <!-- <li><a href="#portfolio">portfolio</a></li> -->
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+        
+            </nav>
+
+            <div class="main-content">
+                <p>Frontend Designer</p>
+                <h1>Hi, I'm <span>Anirudh</span> <br>From India</h1>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+    <!-- -------------------------about-------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <img src="/portfolio/images/user.png" height="500px" alt="error">
+                </div>
+                <div class="col2">
+                    <h1 class="sub-tittle">About me</h1>
+                    <br>
+                    <p>
+                        I am a passionate undergraduate student pursuing a degree in Computer Science, and my heart lies at the intersection of web development. These  fields have always fascinated me, and I am driven by an insatiable thirst for knowledge and growth.
+
+                        In the realm of web development, I find immense joy in crafting captivating and user-friendly websites. My expertise lies in front-end technologies like HTML, CSS, and JavaScript, allowing me to bring ideas to life with visually appealing and interactive interfaces.
+
+                        Let's embark on this thrilling journey of knowledge and exploration together, and together, let's build a secure and innovative digital future!
+                    </p>
+                    <div class="tab-titles">
+
+                        <p class="tab-links active-links" onclick="opentab('Education')"> Education</p>
+                        <p class="tab-links" onclick="opentab('Skills')"> Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')"> Experience</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="Education">
+                        <ul>
+                            <li><span>10th</span><br> Kailashphat Singhania high school MadhyaPradesh</li>
+                            <li><span>12th</span><br> Sunflower hindi English Medium high School 
+                                MadhyaPradesh</li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Skills">
+                        <ul>
+                            <li><span>Hacker rank certify</span><br> Python,javascript</li>
+                            <li><span>Web Development Languages</span><br> HTML , CSS , JavaScript</li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Frontend designer</span><br> Designing web interfaces</li>
+                            <li><span>Web development </span><br> Web app development</li>
+                            <li><span>App development</span><br> Designing web interfaces</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents">
+                        <ul>
+                            <li><span>Hacker rank certify</span><br> Python,javascript</li>
+                            <li><span>Web Development </span><br> HTML , CSS , JavaScript</li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="sevices">
+        <div class="container">
+            <h1>
+                <div class="container"> My Projects
+            </h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="fa-solid fa-address-book"></i>
+                    <h2>Contact Book Project</h2>
+                    <p>This project Collect All the Detail Information of Faculty According to Its Designation. </p>
+                    <a href=""> learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-temperature-low"></i>
+
+                    <h2>Temperature Conveter Project</h2>
+                    <p>This Project Helps to Convet Temperature into Celcius to Fahrenheit. And Fahrenheit to Celcius</p>
+                    <a href=""> learn more</a>
+                </div>
+
+
+                <div>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h2>E-commerce website</h2>
+                    <p>Shoppers can select products they want to purchase and add them to a virtual shopping cart. The shopping cart allows users to review and modify their selections before proceeding to checkout.</p>
+                    <a href=""> learn more</a>
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <!-- ------------portfolio--------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"> Contact Me</h1>
+                    <p> <i class="fa-solid fa-envelope"></i> anirudh.cse21@sbjit.edu.in</p>
+                
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></i></a>
+
+
+                    </div>
+                    <br>
+                    <br>
+                    <a href="/portfolio/images/personal 2 cv.pdf" download class="btn btn2" >Download CV </a>
+                </div>
+                <div class="contact-right">
+
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit"  class="btn btn2">Submit</button>
+
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © Anirudh.🙂</p>
+        </div>
+    </div>
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tablink of tabcontents) {
+                tablink.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    
+    
+    
+    
+</body>
+
+</html>
